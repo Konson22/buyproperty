@@ -1,0 +1,70 @@
+[
+    {
+        "advertType":"sale",
+        "category":"Resturant",
+        "state":"Wau",
+        "upload_date":"12-02-2022",
+        "sold":false,
+        "price":"2,000",
+        "currency":"USD",
+        "space":"20 X 25 M",
+        "description":"We display thousands of new properties for sale every month, 24 hours or more before they appear on Rightmove or Zoopla, giving you a competitive edge in your search for your next home.",
+        "images":[
+            "/images/pexels-expect-best-323780.jpg",
+            "/images/pexels-binyamin-mellish-1396122.jpg", 
+            "/images/pexels-frans-van-heerden-1438832.jpg"
+        ],
+        "_id":"NITiWYtD65rmRIz4"
+    },
+    {
+        "advertType":"sale",
+        "category":"Shop",
+        "state":"Juba",
+        "upload_date":"12-02-2022",
+        "sold":false,
+        "price":"2,000",
+        "currency":"USD",
+        "space":"20 X 25 M",
+        "description":"We display thousands of new properties for sale every month, 24 hours or more before they appear on Rightmove or Zoopla, giving you a competitive edge in your search for your next home.",
+        "images":[
+            "/images/pexels-huseyn-kamaladdin-667838.jpg",
+            "/images/pexels-binyamin-mellish-1396122.jpg",
+            "/images/pexels-photo-2287310.jpeg"
+        ],
+        "_id":"Zr6rwZ0sW2WSF1Aj"
+    },
+    {
+        "advertType":"rent",
+        "category":"Shop",
+        "state":"Bor",
+        "upload_date":"12-02-2022",
+        "sold":false,
+        "price":"2,000",
+        "currency":"USD",
+        "space":"20 X 25 M",
+        "description":"We display thousands of new properties for sale every month, 24 hours or more before they appear on Rightmove or Zoopla, giving you a competitive edge in your search for your next home.",
+        "images":[
+            "/images/pexels-binyamin-mellish-1396122.jpg",
+            "/images/pexels-frans-van-heerden-1438832.jpg",
+            "/images/pexels-photo-2287310.jpeg"
+        ],
+        "_id":"arzS3rJ9TzXtFkPA"
+    },
+    {
+        "advertType":"sale",
+        "category":"Home",
+        "state":"Juba",
+        "upload_date":"12-02-2022",
+        "sold":false,
+        "price":"2,000",
+        "currency":"USD",
+        "space":"20 X 25 M",
+        "description":"We display thousands of new properties for sale every month, 24 hours or more before they appear on Rightmove or Zoopla, giving you a competitive edge in your search for your next home.",
+        "images":[
+            "/images/pexels-photo-2287310.jpeg",
+            "/images/pexels-binyamin-mellish-1396122.jpg",
+            "/images/pexels-frans-van-heerden-1438832.jpg"
+        ],
+        "_id":"rJ7w5vIdVdqhSGRW"
+    }
+]

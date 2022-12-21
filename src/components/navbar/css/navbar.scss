@@ -1,0 +1,115 @@
+
+.navbar-wraper{
+    width:100%;
+    background-color:var(--primary);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    a{
+        color:inherit;
+    }
+    .icon{
+        margin-left: 1rem;
+        font-size: 1.6rem;
+    }
+}
+
+.input{
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-top{
+    padding:1rem 4%;
+    color: var(--white);
+    .logo-container{
+        flex:1;
+        img{
+            height:5rem;
+            width:8rem;
+        }
+    }
+
+    .subcribe-container{
+        background-color: var(--white);
+        width:500px;
+        input, .button{
+            height: 3rem;
+            padding: 0 .6rem;
+        }
+        input{
+            flex:1;
+        }
+    }
+    .socila-media-container{
+        margin-left: 1rem;
+        .media-icon-wraper{
+            margin-left: .6rem;
+            width:2.6rem;
+            height:2.6rem;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--secondary);
+            font-size:160%;
+        }
+    }
+
+}
+
+
+.navbar-bottom{
+    padding: 1rem 4%;
+    background-color:var(--white);
+    .nav-list{
+        flex:1;
+    }
+    ul{
+        margin: 0 !important;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        margin: 0 !important;
+        li{
+            padding:0 1rem;
+            &:hover{
+                background-color:var(--gray);
+            }
+        }
+        .my-link{
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .navbar-wraper{
+        padding:.5rem;
+        display:flex;
+        justify-content: space-between;
+        background-color:var(--white);
+        .icon-wraper{
+            margin-left: .5rem;
+        }
+    }
+    .navbar-top, .navbar-bottom{
+        padding:0;
+    }
+
+    .navbar-top{
+        .logo-container{
+            img{
+                height:3rem;
+                width:6rem;
+            }
+        }
+    }
+    .nav-list{
+        display:none;
+    }
+
+}

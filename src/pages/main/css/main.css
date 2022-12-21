@@ -1,0 +1,361 @@
+/******************************************************************
+    ****** START OF HEADER STYLE *****
+******************************************************************/
+.header-wraper {
+  height: 70vh;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../../assets/images/pexels-huseyn-kamaladdin-667838.jpg");
+  background-size: 100% 100%;
+  background-position: top;
+  position: relative;
+}
+.header-wraper .header-search-wraper {
+  margin-top: 1.5rem;
+}
+.header-wraper .header-search-wraper .dropdown-content {
+  padding: 0 1rem;
+  margin-right: 0.7rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background-color: var(--white);
+}
+.header-wraper .header-search-wraper .search-content.dropdown {
+  padding: 0 1rem;
+}
+.header-wraper .header-search-wraper .search-bar {
+  flex: 1;
+  height: 3.5rem;
+  border-radius: 6px;
+  background-color: var(--white);
+}
+.header-wraper .header-search-wraper .search-bar input, .header-wraper .header-search-wraper .search-bar button {
+  padding: 0 1rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header-wraper .header-search-wraper .search-bar input {
+  flex: 1;
+}
+.header-wraper .header-search-wraper .search-bar button {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.header-wraper .hero-container {
+  width: 50%;
+  text-align: center;
+}
+.header-wraper .hero-container h1, .header-wraper .hero-container h2 {
+  color: var(--white);
+}
+.header-wraper .hero-container h1 {
+  font-size: 4.4rem;
+}
+
+/******************************************************************
+    ****** START OF INTRO STYLE *****
+******************************************************************/
+.home-section {
+  padding: 4rem 12%;
+}
+.home-section__title {
+  margin-bottom: 1.5rem;
+}
+.home-section__title h1 {
+  font-size: 3rem;
+}
+
+/******************************************************************
+    ****** START OF INTRO STYLE *****
+******************************************************************/
+.introduction-container {
+  padding: 5rem 12%;
+  color: var(--white);
+  display: flex;
+  background-color: var(--primary);
+}
+.introduction-container__image {
+  transform: rotate(2deg);
+  border-radius: 7px;
+  flex-basis: 45%;
+  background-image: url("../../../assets/images/pexels-huseyn-kamaladdin-667838.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.introduction-container__text {
+  padding: 0 7rem 0 2rem;
+  flex: 1;
+}
+
+.how-to-sale-container {
+  padding: 5rem 12%;
+  display: flex;
+}
+.how-to-sale-container__image {
+  border-radius: 7px;
+  flex-basis: 45%;
+  transform: rotate(2deg);
+  background-image: url("../../../assets/images/pexels-binyamin-mellish-106399.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.how-to-sale-container__text {
+  padding-right: 4rem;
+  flex: 1;
+}
+
+/******************************************************************
+    ****** START OF TOP PROPERTIES STYLE *****
+******************************************************************/
+.property-wraper {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.property-card {
+  flex: 1;
+  background-color: var(--white);
+}
+.property-card__image {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  min-height: 200px;
+}
+.property-card__footer {
+  padding: 1rem;
+}
+.property-card .property-card-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.property-card-badge {
+  padding: 0.3rem 0.6rem;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  transform: rotate(-45deg);
+  color: var(--white);
+  background-color: orangered;
+  position: absolute;
+  top: 2rem;
+  left: -3rem;
+}
+
+.app-sidebar {
+  margin-right: 1rem;
+  flex-basis: 23%;
+  background-color: var(--white);
+}
+
+.app-content {
+  flex: 1;
+}
+
+.home-properties-container .property-card {
+  margin: 0 0.5rem;
+}
+.home-properties-container .rec-arrow {
+  min-width: -webkit-max-content !important;
+  min-width: -moz-max-content !important;
+  min-width: max-content !important;
+  color: var(--primary) !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+.home-properties-container .rec-arrow-left {
+  left: -1rem;
+}
+.home-properties-container .rec-arrow-right {
+  right: -1rem;
+}
+.home-properties-container .rec-slider-container {
+  margin: 0 !important;
+}
+
+/******************************************************************
+    ****** START OF AGENTS STYLE *****
+******************************************************************/
+.agents-container .agent-card {
+  padding: 1rem;
+  margin: 0 0.6rem;
+  flex: 1;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+.agents-container .agent-card .image {
+  height: 230px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.agents-container .agent-card .social-media-icon {
+  margin: 0 0.4rem;
+  width: 42px;
+  height: 42px;
+  color: var(--white);
+  border: 2px dotted var(--white);
+  background-color: var(--secondary);
+}
+.agents-container .agent-card .social-media-icon .icon {
+  font-size: 1.4rem;
+}
+.agents-container .rec-arrow-left {
+  left: -1rem;
+}
+.agents-container .rec-arrow-right {
+  right: -1rem;
+}
+
+/******************************************************************
+    ****** START OF FEATURES STYLE *****
+******************************************************************/
+.feature-container {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.feature-container .feature-card .feature-card-title {
+  display: flex;
+}
+.feature-container .feature-card .icon {
+  margin-right: 1rem;
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 900px) {
+  /******************************************************************
+      ****** START OF HEADER STYLE *****
+  ******************************************************************/
+  .header-wraper {
+    padding: 3rem 1rem;
+    height: auto;
+    background-size: cover;
+  }
+  .header-wraper .header-search-wraper {
+    margin-top: 1.5rem;
+  }
+  .header-wraper .header-search-wraper .dropdown-content {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    height: 2.8rem;
+    border-radius: 6px;
+  }
+  .header-wraper .header-search-wraper .dropdown-content.category {
+    display: none;
+  }
+  .header-wraper .header-search-wraper .search-bar {
+    height: 2.8rem;
+    flex: 1;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .header-wraper .header-search-wraper .search-bar input, .header-wraper .header-search-wraper .search-bar button {
+    padding: 0 0.6rem;
+  }
+  .header-wraper .header-search-wraper .search-bar input {
+    flex: 1;
+  }
+  .header-wraper .header-search-wraper .search-bar button {
+    padding: 0 1rem;
+    background-color: var(--secondary);
+  }
+  .header-wraper .hero-container {
+    width: 100%;
+  }
+  .header-wraper .hero-container h1 {
+    font-size: 1.8rem;
+  }
+  .app-sidebar {
+    display: none;
+  }
+  /******************************************************************
+      ****** START OF INTRO STYLE *****
+  ******************************************************************/
+  .home-section {
+    padding: 2rem 1rem;
+  }
+  .home-section__title {
+    margin-bottom: 1rem;
+  }
+  .home-section__title h1 {
+    font-size: 2rem;
+  }
+  /******************************************************************
+      ****** START OF INTRO STYLE *****
+  ******************************************************************/
+  .introduction-container {
+    padding: 3rem 1rem;
+    color: var(--white);
+    display: block;
+    background-color: var(--primary);
+  }
+  .introduction-container__image {
+    margin-bottom: 1rem;
+    height: 250px !important;
+    transform: rotate(0);
+  }
+  .introduction-container__text {
+    padding-left: 0;
+  }
+  .how-to-sale-container {
+    padding: 3rem 1rem;
+    display: block;
+  }
+  .how-to-sale-container__image {
+    margin-bottom: 1rem;
+    height: 250px !important;
+    transform: rotate(0);
+  }
+  .how-to-sale-container__text {
+    text-align: center;
+    padding: 0;
+  }
+  .property-wraper {
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .property-wraper .property-card__footer {
+    padding: 0.6rem;
+  }
+  .property-wraper .property-card .property-card-buttons {
+    display: block;
+  }
+  .property-wraper .property-card button {
+    margin: 1rem 0.5rem 0 0;
+    padding: 0.3rem 0.6rem;
+  }
+  .home-properties-container {
+    padding: 2rem 1rem;
+  }
+  .home-properties-container .home-section__content {
+    position: relative;
+  }
+  .home-properties-container .property-card {
+    margin: 0;
+    overflow: hidden;
+  }
+  .home-properties-container .rec-arrow {
+    color: var(--white) !important;
+    background-color: transparent !important;
+  }
+  .home-properties-container .rec-arrow-left {
+    left: -0.7rem;
+  }
+  .home-properties-container .rec-arrow-right {
+    right: -0.7rem;
+  }
+  /******************************************************************
+      ****** START OF FEATURES STYLE *****
+  ******************************************************************/
+  .feature-container {
+    display: block;
+  }
+  .feature-container .feature-card .icon {
+    margin-right: 1rem;
+    font-size: 2.4rem;
+  }
+}/*# sourceMappingURL=main.css.map */

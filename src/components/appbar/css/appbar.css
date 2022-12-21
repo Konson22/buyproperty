@@ -1,0 +1,120 @@
+.appbar-container {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.appbar-container .ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.appbar-container .ul li {
+  padding: 0 1rem;
+}
+.appbar-container .icon-wraper {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.appbar-container .icon-wraper .icon {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.appbar-top-wraper {
+  padding: 2rem 5%;
+  color: var(--white);
+  background-color: var(--primary);
+}
+.appbar-top-wraper .contacts-wraper span {
+  margin-right: 1rem;
+}
+.appbar-top-wraper .contacts-wraper .icon {
+  font-size: 1.3rem;
+}
+.appbar-top-wraper .socila-media-content {
+  margin-left: 1rem;
+  width: 40px;
+  height: 40px;
+  border: 2px dotted var(--white);
+  background-color: var(--secondary);
+}
+.appbar-top-wraper .socila-media-content .icon {
+  font-size: 1.5rem;
+}
+
+.appbar-nav {
+  padding: 0.5rem 5%;
+  background-color: var(--white);
+}
+.appbar-nav .logo-wraper {
+  height: 3.5rem;
+}
+.appbar-nav .nav-links-wraper {
+  flex: 1;
+}
+
+.mobile-nav-wraper {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .app-wraper {
+    margin-bottom: 4rem;
+  }
+  .appbar-container .icon-wraper {
+    margin-left: 1rem;
+  }
+  .appbar-container .icon-wraper .icon {
+    font-size: 1.5rem;
+  }
+  .appbar-container .icon-wraper.menu {
+    margin: 0 1rem 0 0 !important;
+  }
+  .appbar-nav {
+    padding: 0.5rem;
+    background-color: var(--white);
+  }
+  .appbar-nav .logo-wraper {
+    margin-right: 1rem;
+    height: 3rem;
+    width: 4.5rem;
+  }
+  .appbar-nav .nav-links-wraper {
+    display: none !important;
+  }
+  .mobile-nav-wraper {
+    padding: 0 0.7rem;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    background-color: var(--primary);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  .mobile-nav-wraper span {
+    font-size: 0.8rem;
+  }
+  .mobile-nav-wraper .icon {
+    font-size: 1.5rem;
+  }
+  .mobile-nav-wraper .icon.lg {
+    font-size: 1.8rem;
+  }
+  .mobile-nav-wraper .mobile-nav-item.center {
+    margin-top: -1.5rem;
+    width: 55px;
+    height: 55px;
+    border: 5px solid var(--gray);
+    background-color: var(--primary);
+  }
+}/*# sourceMappingURL=appbar.css.map */

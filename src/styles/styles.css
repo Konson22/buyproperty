@@ -1,0 +1,97 @@
+:root {
+  --primary:rgb(119, 72, 141);
+  --secondary:rgb(81, 199, 81);
+  --secondary:orangered;
+  --gray:#eee;
+  --white:#fff;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+p {
+  font-size: 17px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0 !important;
+}
+
+.button {
+  padding: 0.5em 0.6em;
+  border: none;
+  outline: none;
+  outline-offset: none;
+  color: var(--white) !important;
+  background-color: var(--secondary) !important;
+}
+.button:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.btn.btn-primary {
+  border: none !important;
+  outline: none !important;
+  outline-offset: none !important;
+  background-color: var(--secondary) !important;
+  background-color: orangered !important;
+}
+.btn.btn-primary:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.my-container {
+  padding: 1rem 4%;
+}
+
+/******************************************************************
+    ****** START OF CAROUSEL STYLE *****
+******************************************************************/
+.rec-carousel-wrapper {
+  position: relative !important;
+}
+
+.rec-arrow {
+  position: absolute;
+  z-index: 20 !important;
+  border: none !important;
+  font-size: 2rem !important;
+  box-shadow: none !important;
+}
+
+.rec-slider-container {
+  margin: 0 !important;
+}
+
+.lg-hide {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    position: relative !important;
+  }
+  .sm-hide {
+    display: none !important;
+  }
+  .lg-hide {
+    display: block;
+  }
+  .my-container {
+    padding: 0.5rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
